@@ -1,0 +1,42 @@
+.root {
+    display: flex;
+    /* Make the navigation bar horizontal */
+    justify-content: space-between;
+    /* Space links evenly */
+    background-color: #f0f0f0;
+    /* Light gray background */
+    padding: 10px 20px;
+    /* Add some padding */
+}
+
+.root ul {
+    list-style: none;
+    /* Remove default bullet points */
+    margin: 0;
+    /* Remove default margin */
+    padding: 0;
+    /* Remove default padding */
+}
+
+.root li {
+    display: inline-block;
+    /* Display list items inline */
+    margin-right: 15px;
+    /* Add space between links */
+}
+
+.root a {
+    /* Style all anchor tags within the navigation */
+    color: #333;
+    /* Dark gray text color */
+    text-decoration: none;
+    /* Remove underline */
+    font-weight: bold;
+    /* Make links bolder */
+}
+
+.root a.active {
+    /* Style the active link */
+    color: #007bff;
+    /* Blue for active link */
+}

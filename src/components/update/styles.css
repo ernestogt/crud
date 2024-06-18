@@ -1,0 +1,24 @@
+.home-container {
+    display: flex;
+}
+
+.user-list {
+    flex: 1;
+    /* Add styles for the user list section */
+}
+
+.user-details {
+    flex: 1;
+    /* Add styles for the user details section */
+}
+
+.user-list-items>* {
+    transition: background-color 0.3s ease;
+    /* Add a transition for smooth effect */
+}
+
+.user-list-items>*:hover {
+    background-color: #f0f0f0;
+    /* Change the background color on hover */
+    color: black;
+}
